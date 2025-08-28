@@ -2,7 +2,7 @@
   "name": "json-path-finder",
   "displayName": "JSON Path Finder",
   "description": "Visual JSON path finder with interactive tree view - like findjsonpath.com",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.74.0"
   },
