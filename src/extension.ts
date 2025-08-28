@@ -3,6 +3,7 @@ import { JsonPathProvider } from "./JsonPathProvider";
 
 export function activate(context: vscode.ExtensionContext) {
   console.log("🚀 JSON Path Finder extension is activating...");
+
   const provider = new JsonPathProvider(context.extensionUri);
 
   context.subscriptions.push(vscode.window.registerWebviewViewProvider("jsonPathFinder", provider));
