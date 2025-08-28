@@ -23,6 +23,7 @@
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/your-username/json-path-finder.git"
